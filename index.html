@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>Best Pets</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/flexslider.css"/>
+    <link rel="stylesheet" href="css/dosisFont.css"/>
+    <link rel="stylesheet" href="css/latoFont.css"/>
+    <link rel="stylesheet" href="css/comment.css"/>
+</head>
+
+<body>
+<div id="top" style="position: fixed;right: 2rem;bottom: 3rem;z-index: 200">
+    <a href="#bestPets" style="width: 100%;height: 100%">
+        <img src="img/arrow.png">
+    </a>
+</div>
+<div class="header header-moveImg">
+    <div class="header-grey">
+        <div class="container">
+            <!--header-top-->
+            <div class="header-top">
+                <div class="header-btn">
+                    <h1>
+                        <a id="bestPets" href="index.html">Best Pets</a>
+                    </h1>
+                </div>
+                <!--bottom btn-->
+                <div class="header-right">
+                    <ul>
+                        <li id="login" class="data-btn">
+                            <a href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#dataModal">Data</a>
+                        </li>
+                        <!--<li class="petgame-btn">
+                            <a href="#">PetGame</a>
+                        </li>-->
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="header-nav">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="index.html" class="active">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a href="#services">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#stories">Stories</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+
+            <!--header-center-->
+            <div class="header-center">
+                <div class="container box-nav">
+                    <div class="agile_banner_info">
+                        <div class="agile_banner_info1">
+                            <h6>Quis nostrum exercitationrem </h6>
+                            <div class="span-div">
+										<span id="text">
+										<!--js注入-->
+										</span><span id="line">|</span>
+                            </div>
+                            <!--<div id="typed-strings" class="agileits_w3layouts_strings">
+                                <p>Welcome to<i> Best Pets</i></p>
+                                <p><i>Pulvinar</i> Vitae Site</p>
+                                <p>Curabi tremlaci <i>Pharetra</i></p>
+                            </div>
+                            <span id="typed" style="white-space:pre;"></span>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <!--banner-->
+    <div class="banner">
+        <div class="col-md-4 items">
+            <div class="col-xs-4 item-left hvr-radial-out">
+                <!--<img src="img/l1-2.PNG">-->
+                <i class="fa fa-clone" aria-hidden="true"></i>
+            </div>
+            <div class="col-xs-8 item-right">
+                <h4>Free Consultation</h4>
+                <p>Morbi viverra lacus commodo felis sremper, eu iaculis lectus feugiat.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4 items item1">
+            <div class="col-xs-4 item-left hvr-radial-out">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+            <div class="col-xs-8 item-right">
+                <h4>Certified Products</h4>
+                <p>Morbi viverra lacus commodo felis sremper, eu iaculis lectus feugiat.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4 items item2">
+            <div class="col-xs-4 item-left hvr-radial-out">
+                <i class="fa fa-comment-o" aria-hidden="true"></i>
+            </div>
+            <div class="col-xs-8 item-right">
+                <h4>Free Helpline</h4>
+                <p>Morbi viverra lacus commodo felis sremper, eu iaculis lectus feugiat.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--carousel+text-->
+    <div id="about" class="welcome">
+        <div class="container">
+            <!--carousel 调用flexslider库-->
+            <div class="col-md-6 welcome-left text-center">
+                <div class="flexslider flexslider-margin">
+                    <ul class="slides">
+                        <li>
+                            <img src="img/g1.jpg">
+                        </li>
+                        <li>
+                            <img src="img/g2.jpg">
+                        </li>
+                        <li>
+                            <img src="img/g3.jpg">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 welcome-right">
+
+                <h3 class="story-right-title">
+                    About Us
+                </h3>
+                <h6>Lorem ipsum dolor <span> Consectetur </span> sit amet adipisicing elit. </h6>
+                <p>Quis nostrum exercitationrem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                    consequatur? Quis autrem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                    molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                <div class="w3l_more">
+                    <a href="#" class="button button--nina" data-text="Learn more" data-toggle="modal"
+                       data-target="#aboutModal">
+                        <span>L</span><span>e</span><span>a</span><span>n</span>
+                        <span>m</span><span>o</span><span>r</span><span>e</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- welcome -->
+
+    <!--services-->
+    <div id="services" class="services">
+        <div class="container">
+            <h3>Our Services</h3>
+            <div class="service-items">
+                <div class="col-md-3 col-sm-3 col-xs-6 service-item">
+                    <span class="glyphicon glyphicon-home effect-1" aria-hidden="true"></span>
+                    <h5>Lorem ipsum</h5>
+                    <p>Itaque earum rerum hic a sapiente delectus in auctor sapien.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-6 service-item">
+                    <span class="glyphicon glyphicon-list-alt effect-1" aria-hidden="true"></span>
+                    <h5>Ut non lacus</h5>
+                    <p>Itaque earum rerum hic a sapiente delectus in auctor sapien.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-6 service-item">
+                    <span class="glyphicon glyphicon-tree-deciduous effect-1" aria-hidden="true"></span>
+                    <h5>Maec rutrum</h5>
+                    <p>Itaque earum rerum hic a sapiente delectus in auctor sapien.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-6 service-item">
+                    <span class="glyphicon glyphicon-globe effect-1" aria-hidden="true"></span>
+                    <h5>Phase gravida</h5>
+                    <p>Itaque earum rerum hic a sapiente delectus in auctor sapien.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--oldman+dog-->
+    <div id="stories" class="story">
+        <div class="container">
+            <div class="col-sm-5 story-left">
+                <img src="img/s1.jpg">
+            </div>
+
+            <div class="col-sm-7 welcome-right">
+                <h5>Best Pets</h5>
+                <h3>24/7 Customer Service Support</h3>
+                <p>Pellentesque accumsan cursus dui, sodales blandit urna sodales vitae. Maecenas placerat eget mi vitae
+                    euismod. Duis aliquam efficitur mi, et eleifend velit.</p>
+
+                <div class="w3l_more">
+                    <a href="#" class="button button--nina" data-text="Learn more" data-toggle="modal"
+                       data-target="#storyModal">
+                        <span>L</span><span>e</span><span>a</span><span>n</span>
+                        <span>m</span><span>o</span><span>r</span><span>e</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--message-->
+
+
+    <!-- Modal -->
+    <!--storyModal-->
+    <div class="modal fade" id="storyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <!--<h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
+                </div>
+                <div class="modal-body">
+                    <img src="img/g2.jpg" class="img-responsive" alt="">
+                    <h4>Consectetur adipiscing elit</h4>
+                    <p>Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu
+                        ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue
+                        consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis
+                        felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar
+                        metus neque, eget porttitor massa vulputate in.<br> Fusce lacus purus, pulvinar ut lacinia id,
+                        sagittis eu mi. Vestibulum eleifend massa sem, eget dapibus turpis efficitur at. Aliquam viverra
+                        quis leo et efficitur. Nullam arcu risus, scelerisque quis interdum eget, fermentum viverra
+                        turpis. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
+                        maiores alias consequatur aut At vero eos </p>
+
+                </div>
+                <div class="modal-footer">
+                    <div class="w3l_more">
+                        <a id="storyClick" href="#" class="button button--nina" data-text="Learn more >>"
+                           data-toggle="modal" data-target="#aboutModal">
+                            <span>L</span><span>e</span><span>a</span><span>n</span>
+                            <span>m</span><span>o</span><span>r</span><span>e</span><span>&gt;</span><span>&gt;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--aboutModel-->
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <!--<h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
+                </div>
+                <div class="modal-body">
+                    <img src="img/g3.jpg" class="img-responsive" alt="">
+                    <h4>Consectetur adipiscing elit</h4>
+                    <p>Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu
+                        ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue
+                        consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis
+                        felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar
+                        metus neque, eget porttitor massa vulputate in.<br> Fusce lacus purus, pulvinar ut lacinia id,
+                        sagittis eu mi. Vestibulum eleifend massa sem, eget dapibus turpis efficitur at. Aliquam viverra
+                        quis leo et efficitur. Nullam arcu risus, scelerisque quis interdum eget, fermentum viverra
+                        turpis. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
+                        maiores alias consequatur aut At vero eos </p>
+
+                </div>
+                <div class="modal-footer">
+                    <div class="w3l_more">
+                        <a id="aboutClick" href="#" class="button button--nina" data-text="Learn more >>"
+                           data-toggle="modal" data-target="#storyModal">
+                            <span>L</span><span>e</span><span>a</span><span>n</span>
+                            <span>m</span><span>o</span><span>r</span><span>e</span><span>&gt;</span><span>&gt;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--dataModel-->
+    <!-- Modal -->
+    <div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                   
+                </div>
+                <div class="modal-body echart-style">
+	                 <h5 >DATA OF PETS</h5>
+	                <div id="main">
+	                    <!--js注入-->
+	                </div>
+	                <p>
+	                    Lorem ipsum dolor sit amet, non convallis
+	                    felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar
+	                    metus neque, eget porttitor massa vulputate in.<br><br> Fusce lacus purus, pulvinar ut lacinia id,
+	                    sagittis eu mi. Ve eleifend massa sem, eget dapibus turpis efficitur at. Aliq viverra
+	                    quis leo et efficitur.
+	                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<!--Echart-->
+<script src="js/echarts.min.js"></script>
+<script>
+    // 基于准备好的dom，初始化echarts实例
+    // 指定图表的配置项和数据
+    // 使用刚指定的配置项和数据显示图表。
+    var modelData = [];
+    $.getJSON("json/data.json",function (data) {
+        modelData = data;
+        var myChart = echarts.init(document.getElementById("main"));
+
+        var option = {
+            tooltip: {
+                trigger: 'axis',
+                formatter: function (params) {
+                    params = params[0];
+                    return 'pet:' + params.name + '<br/>' + 'num:' + params.value;
+                    // param = params[0];
+                    // return 'pet:' + param.value[0] + '<br/>' + 'num:' + param.value[1];
+                },
+                axisPointer: {
+                    animation: false
+                }
+            },
+            toolbox: {
+                show: true,
+                showTitle:true,
+//						itemGap:30,
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    dataView: {readOnly: false},
+                    magicType: {type: ['line', 'bar']},
+                    restore: {},
+                    saveAsImage: {type:['png']}
+                },
+
+            },
+            grid:{
+                left:35,
+            },
+            xAxis: {
+                name: 'Pet name',
+                nameGap:25,
+                interval:0,
+                nameLocation:'middle',
+                data:modelData[0],
+                nameTextStyle: {
+                    color: 'cornflowerblue'
+                }
+            },
+            yAxis: {
+                name: 'Adopted num',
+                nameLocation:'middle',
+                nameGap:25,
+                nameRotate:90,
+//					data:modelData[1],
+                nameTextStyle: {
+                    color: 'cornflowerblue'
+                }
+            },
+            series: [{
+                name: 'loss',
+                type: 'line',
+                showSymbol: false,
+                hoverAnimation: true,
+                data: modelData[1]
+            }]
+        }
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    });
+
+</script>
+<script type="text/javascript" src="js/index.js" ></script>
+</body>
+
+</html>

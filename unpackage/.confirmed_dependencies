@@ -1,0 +1,63 @@
+{
+	"index.html": {
+		"resources": [
+			"css/dosisFont.css",
+			"css/comment.css",
+			"json/data.json",
+			"js/jquery.min.js",
+			"img/overlay.png",
+			"fonts/glyphicons-halflings-regular.woff",
+			"css/fonts/flexslider-icon.woff",
+			"css/latoFont.css",
+			"fonts/fontawesome-webfont.woff2",
+			"css/bootstrap.min.css",
+			"img/g3.jpg",
+			"img/g2.jpg",
+			"img/arrow.png",
+			"js/echarts.min.js",
+			"css/font-awesome.css",
+			"img/1.jpg",
+			"img/s1.jpg",
+			"js/jquery.flexslider-min.js",
+			"css/flexslider.css",
+			"js/bootstrap.min.js",
+			"img/3.jpg",
+			"img/g1.jpg",
+			"login.html",
+			"js/index.js",
+			"js/echart.js"
+		],
+		"refer": [
+			"login.html"
+		]
+	},
+	"login.html": {
+		"resources": [
+			"js/jquery.min.js",
+			"css/font-awesome.css",
+			"img/pet.jpg",
+			"js/bootstrap.min.js",
+			"css/latoFont.css",
+			"css/bootstrap.min.css",
+			"register.html",
+			"index.html"
+		],
+		"refer": [
+			"register.html",
+			"index.html"
+		]
+	},
+	"register.html": {
+		"resources": [
+			"js/jquery.min.js",
+			"css/font-awesome.css",
+			"login.html",
+			"js/bootstrap.min.js",
+			"css/latoFont.css",
+			"css/bootstrap.min.css"
+		],
+		"refer": [
+			"login.html"
+		]
+	}
+}
